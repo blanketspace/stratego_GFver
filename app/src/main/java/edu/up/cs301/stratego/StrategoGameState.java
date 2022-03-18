@@ -2,6 +2,8 @@ package edu.up.cs301.stratego;
 
 import java.util.ArrayList;
 
+import edu.up.cs301.game.infoMsg.GameState;
+
 /**
  * StrategoGameState
  *
@@ -13,7 +15,7 @@ import java.util.ArrayList;
  * @author Kathryn Weidman
  * @version 3/11/2022
  */
-public class StrategoGameState {
+public class StrategoGameState extends GameState {
 
     private int whoseTurn;
 
